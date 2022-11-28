@@ -68,7 +68,7 @@ export class DataLocalService {
 
   enviarCorreo(){
     const arrTemp = []
-    const titulos = 'Tipo, Formato, Crean en, Texto\n';
+    const titulos = 'Tipo, Formato, Creado en, Texto\n';
 
     arrTemp.push(titulos);
     this.guardados.forEach((registro) => {
