@@ -14,7 +14,8 @@ export class Tab2Page {
   ) {}
 
   enviarCorreo(){
-    console.log('Enviando correo...')
+    console.log('Enviando correo...');
+    this.dataLocalService.enviarCorreo();
   }
 
   abrirRegistro(registro: Registro){
