@@ -20,7 +20,7 @@ export class Registro {
         this.type = 'http';
         this.icon = 'globe';
         break;
-      case 'geo':
+      case 'geo:':
         this.type = 'geo';
         this.icon = 'pin';
         break;
